@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWQM Pangasius | Hypothalamus Aquaculture</title>
+
+    <!-- 1. Tailwind MUST load first -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 2. Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- 3. Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- 4. Your custom CSS ALWAYS at the bottom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-poppins">
+    <header>
+		<nav class="navbar">
+		<div class="flex items-center space-x-2">
+			<img src="logoswqm.png" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+			<h1 class="text-xl font-bold" style="color: var(--navbar-text);">SWQM</h1>
+		</div>
+			<ul class="nav-links">
+				<li><a href ="index.html">Home</a></li>
+				<li><a href="about.html"> About</a></li>
+				<li><a href="work.html"class="active">Work</a></li>
+				<li><a href="progress.html">Work Progress</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+    <main class="container mx-auto px-4 py-12">
+        <!-- Page Header -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold custom-text mb-4">Our Work</h1>
+            <div class="w-24 h-1 custom-hero-gradient mx-auto mb-6"></div>
+            <p class="text-xl custom-text max-w-3xl mx-auto">Discover how our Smart Water Quality Management System enhances Pangasius farming through automation and innovation.
+</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="mb-16">
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="custom-card p-8 rounded-xl shadow-md">
+                    <img src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t1.15752-9/553657511_1373238460983166_932788324953291328_n.png?_nc_cat=110&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGD3lpthEwlsKnlCJ2fwEulf0i1-oih9h5_SLX6iKH2Hj1l2Y2NkcGkJOc78N0b6BTWdkvuGF4Ztcv4ZMsOrPAz&_nc_ohc=nljuOv-UkhcQ7kNvwGpHFXh&_nc_oc=AdnYH-tCpe0Zf5HwIRi8Bi1ZQrglkYWtGy4ua85JQUWkOcbTR9FwtXvjwmc0F-IiHLUw-XxRfArrQAIJtcUwsNZP&_nc_zt=23&_nc_ht=scontent.fmnl4-3.fna&oh=03_Q7cD3gGYGx1-NizdkGlQnJMNjmNPk9CCBqxuaqfNdUkAOA2bVA&oe=69292ABF" alt="Farm Project" class="rounded-lg w-full mb-6">
+                    <h2 class="text-2xl font-bold mb-4 custom-text">Recirculating Aquaculture System (RAS)</h2>
+                    <p class="custom-text mb-4">Our system integrates a Recirculating Aquaculture System that continuously filters and reuses water in the Cream Dory tanks. This setup helps maintain clean and stable water conditions, reduces waste, and supports sustainable fish farming while conserving resources.</p>
+                    <div class="flex items-center custom-text">                        
+                        <span></span>
+                    </div>
+                </div>
+                <div class="custom-card p-8 rounded-xl shadow-md">
+                    <img src="https://scontent.fmnl4-3.fna.fbcdn.net/v/t1.15752-9/568242838_3513459835471406_6911645910568664558_n.png?_nc_cat=109&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHH_iKiGLGBDbl35Oz9AYbO1tcGBhaGYg_W1wYGFoZiD8gJxZgKtOeeI84zqKK8RAG6VfP87hPnaUSm8IuLOe91&_nc_ohc=MYaNZoCyS00Q7kNvwHlqhmB&_nc_oc=AdnMN60bqvUGXMAPZ2bPvQRSMv5F4CS-IDCZj56Z69t3X-bsluNJVPabQRE1k4qbuyXSCIIU6jUhM9eo_kwPQe05&_nc_zt=23&_nc_ht=scontent.fmnl4-3.fna&oh=03_Q7cD3gHvGoabl0JJgXPXUUifyVi7DkCLmyPYjbNlrWsTfK3-vg&oe=69295509" alt="Research Project" class="rounded-lg w-full mb-6">
+                    <h2 class="text-2xl font-bold mb-4 custom-text">Smart Monitoring System</h2>
+                    <p class="custom-text mb-4">The Smart Monitoring System uses Arduino and ESP32 microcontrollers with sensors to track pH, temperature, salinity, dissolved oxygen, ammonia, and water level in real time. Data are displayed on a web dashboard and LCD screen, allowing farmers to easily monitor and manage tank conditions.</p>
+                    <div class="flex items-center custom-text">
+                        <class="w-4 h-4 mr-2"></i>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Data and Testing Section -->
+<section class="custom-hero-gradient rounded-2xl p-8 md:p-12 text-white shadow-xl mb-16">
+  <h2 class="text-3xl font-bold custom-text text-center mb-12">Data and Testing</h2>
+
+  <div class="grid md:grid-cols-3 gap-8">
+    <div class="text-center">
+		<div class="text-5xl custom-text-parameters font-bold mb-3">27.8°C</div>
+			<p class= "text-3xl">
+				Temperature<br>
+			<span class="text-sm custom-text">Ideal: 25–30°C </span></p>
+    </div>
+
+    <div class="text-center">
+		<div class="text-5xl custom-text-parameters font-bold mb-3">7.1</div>
+			<p class= "text-3xl">
+				pH Level<br>
+			<span class="text-sm custom-text">Ideal: 5.5–8.0 5 </span></p>
+    </div>
+
+    <div class="text-center">
+		<div class="text-5xl custom-text-parameters font-bold mb-3">500 ppm</div>
+			<p class="text-3xl">
+				Salinity<br>
+			<span class="text-sm custom-text">Ideal: &lt; 400 ppm  </span>
+		</p>
+    </div>
+
+    <div class="text-center">
+		<div class="text-5xl custom-text-parameters font-bold mb-3">0 mg/L</div>
+			<p class="text-3xl">
+				Dissolved Oxygen<br>
+			<span class="text-sm custom-text">Ideal: 0 mg/L </span></p>
+    </div>
+
+    <div class="text-center">
+		<div class="text-5xl custom-text-parameters font-bold mb-3">10 ppm</div>
+			<p class="text-3xl">
+				Ammonia<br>
+			<span class="text-sm custom-text text-bold">Ideal: &lt; 10 ppm </span></p>
+    </div>
+
+    <div class="text-center">
+      <div class="text-5xl custom-text-parameters font-bold mb-3">100 %</div>
+			<p class="text-3xl">
+				Water Level<br>
+			<span class="text-sm custom-text">Ideal: 50% - 100% </span></p>
+    </div>
+  </div>
+
+  <p class="text-center mt-10 custom-text text-sm max-w-3xl mx-auto">
+    These results show that the system effectively maintains water parameters within healthy ranges,
+    ensuring stable and favorable tank conditions for Cream Dory farming.
+  </p>
+</section>
+
+
+    </main>
+
+   <footer>
+	<div class="footer-content">
+	<p> © 2025 Thesis Project Team </p>
+	<p> Developed by: KMJ's</p>
+	<ul class ="footer-links">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="work.html">Work</a></li>
+		<li><a href="progress.html">Work Progress</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</div>
+</footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

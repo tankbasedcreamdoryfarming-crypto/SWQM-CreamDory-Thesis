@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWQM Pangasius | Hypothalamus Aquaculture</title>
+
+    <!-- 1. Tailwind MUST load first -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 2. Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- 3. Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- 4. Your custom CSS ALWAYS at the bottom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-poppins">
+    <header>
+		<nav class="navbar">
+		<div class="flex items-center space-x-2">
+			<img src="logoswqm.png" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+			<h1 class="text-xl font-bold" style="color: var(--navbar-text);">SWQM</h1>
+		</div>
+			<ul class="nav-links">
+				<li><a href ="index.html">Home</a></li>
+				<li><a href="about.html"class="active"> About</a></li>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="progress.html">Work Progress</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+    <main class="container mx-auto px-4 py-12">
+        <!-- Page Header -->
+		<section class="custom-hero-gradient rounded-2xl p-8 md:p-12 custom-text mb-12 shadow-xl">
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold custom-text mb-4">Behind The Innovation</h1>
+            <div class="w-24 h-1 custom-hero-gradient mx-auto mb-6"></div>
+            <p class="text-xl custom-text max-w-3xl mx-auto">Learn about our innovative approach to pangasius farming using automation technology</p>
+        </section>
+		</section>
+
+        <!-- Our Story -->
+        <section class="mb-16">
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="md:w-1/2">
+                    <img src="https://th.bing.com/th/id/R.97a8e39a41f26aeb67d351fb36414b94?rik=MhgvYE5uyie10Q&riu=http%3a%2f%2ftepbac.com%2fupload%2fspecies%2fge_image%2fpangasius_hypopthalmus_sw.jpg&ehk=52NSs0l1Xpn%2fh%2bNqzxkE%2bmeduV3UGULtxZsrJM8Vdvs%3d&risl=&pid=ImgRaw&r=0" alt="Our Farm" class="rounded-xl shadow-md w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6 custom-text">Our Story</h2>
+                    <p class="custom-text mb-4">Our journey began with a simple goal to make fish farming smarter, easier, and more sustainable. We noticed that many local farmers still rely on manual water monitoring, which takes time and often leads to inconsistent results.</p>
+                    <p class="custom-text mb-4">To address this, we created the Smart Water Quality Management System for tank-based Cream Dory farming. Using Arduino and ESP32 with a Recirculating Aquaculture System (RAS), it tracks key parameters like pH, temperature, salinity, dissolved oxygen, ammonia, and water level in real time.</p>
+                    <p class="custom-text">What began as a simple idea has become a working system that blends technology, teamwork, and sustainability, showing that innovation can truly transform local aquaculture and help strengthen the future of Pangasius production in the Philippines.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission & Vision -->
+        <section class="mb-16 custom-card rounded-2xl p-8 shadow-md">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="border-r border-black pr-8">
+                    <div class="text-green-500 mb-4">
+                        <i data-feather="book-open" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 custom-text">Background</h3>
+                    <p class="custom-text">To address the challenges of manual fish farming, our project introduces an automated water quality monitoring system for tank-based Cream Dory. It promotes smarter, more efficient, and sustainable aquaculture in the Philippines.</p>
+                </div>
+                <div>
+                    <div class="text-red-500 mb-4">
+                        <i data-feather="target" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 custom-text">Objective</h3>
+                    <p class="custom-text">To develop a smart system that monitors water parameters such as pH, temperature, salinity, dissolved oxygen, ammonia, and water level in real time, improving productivity and supporting sustainable fish farming.</p>
+                </div>
+            </div>
+        </section>
+        <section class="mb-16 custom-card rounded-2xl p-8 shadow-md">
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="border-r border-black pr-8">
+                    <div class="text-blue-500 mb-4">
+                        <i data-feather="layers" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 custom-text">System Overview</h3>
+                    <p class="custom-text">The system uses Arduino and ESP32 microcontrollers integrated with a Recirculating Aquaculture System (RAS). It automates data collection and displays real-time results through a web-based dashboard and LCD display.</p>
+                </div>
+                <div>
+                    <div class="text-yellow-500 mb-4">
+                        <i data-feather="award" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 custom-text">Significance</h3>
+                    <p class="custom-text">This project helps local fish farmers maintain ideal water conditions, reduce fish loss, and improve yield. It supports sustainable aquaculture practices and could strengthen Pangasius production and export potential in the Philippines.
+					</p>
+                </div>
+            </div>
+         
+
+        </section>
+        <!-- Team Section -->
+<section>
+  <div class="custom-border rounded-xl p-2">
+    <h2 class="text-3xl font-bold text-center mb-12 custom-text"><br>
+      The Minds Behind The Innovation
+    </h2>
+
+    <!-- First row: 3 cards -->
+    <div class="flex justify-center gap-8 flex-wrap max-w-5xl mx-auto">
+      <!-- Jennilyne -->
+      <div class="custom-card p-6 rounded-xl shadow-md text-center w-64">
+        <img src="member1.png"
+          alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold mb-1">Jennilyne Villaruz</h3>
+        <p class="text-blue-500 mb-3">Research Leader</p>
+        <p class="text-gray-600">Leads the team and oversees the entire project.</p>
+      </div>
+
+      <!-- Mark -->
+      <div class="custom-card p-6 rounded-xl shadow-md text-center w-64">
+        <img src="member2.png"
+          alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold mb-1">Mark Dela Cruz</h3>
+        <p class="text-blue-500 mb-3">Research Operations Director</p>
+        <p class="text-gray-600">Manages expenses, materials, and daily operations.</p>
+      </div>
+
+      <!-- Kim -->
+      <div class="custom-card p-6 rounded-xl shadow-md text-center w-64">
+        <img src="member3.png"
+          alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold mb-1">Kim Luis Dela Cruz</h3>
+        <p class="text-blue-500 mb-3">Research System Designer</p>
+        <p class="text-gray-600">Assists in creating and improving the tank design.</p>
+      </div>
+    </div>
+
+    <!-- Second row: 2 cards -->
+    <div class="flex justify-center gap-8 mt-10 max-w-3xl mx-auto">
+      <!-- Joeril -->
+      <div class="custom-card p-6 rounded-xl shadow-md text-center w-64">
+        <img src="member4.png"
+          alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold mb-1">Joeril Martinez</h3>
+        <p class="text-blue-500 mb-3">Research Web Developer</p>
+        <p class="text-gray-600">Builds and maintains the project’s website.</p>
+      </div>
+
+      <!-- Jose -->
+      <div class="custom-card p-6 rounded-xl shadow-md text-center w-64">
+        <img src="member5.png"
+          alt="Team Member" class="w-32 h-32 rounded-full mx-auto mb-4 object-cover">
+        <h3 class="text-xl font-semibold mb-1">Jose Emmanuel Rosas</h3>
+        <p class="text-blue-500 mb-3">Research Design Engineer</p>
+        <p class="text-gray-600">Designs and develops the project’s tank system.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+<br>
+<br>		
+	        <!-- Partners Section -->
+    <section>
+		<h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Partners</h2>
+			<div class="partners-container">
+				<div class="partner-card custom-card p-6 rounded-xl shadow-md flex items-center justify-center">
+				
+					<img src="logortu.png" alt="Partner 1" class ="h-12">
+						<h3 class="text-m text-center font-semibold mb-1">Rizal Technological University</h3>
+				</div>
+				<div class="partner-card custom-card p-6 rounded-xl shadow-md flex items-center justify-center">
+					<img src="logobanoy.png" alt="Partner 2" class="h-12">
+						<h3 class="text-m text-center font-semibold mb-1"> Banoy Isdabest and Resto Bar</h3>
+				</div>
+				<div class="partner-card custom-card p-6 rounded-xl shadow-md flex items-center justify-center">
+					<img src="logoece.png" alt="Partner 3" class="h-12">
+						<h3 class="text-m text-center font-semibold mb-1">Electronics Engineering Department</h3>
+				</div>
+			</div>
+	</section>
+		
+		
+
+    </main>
+
+    <footer>
+	<div class="footer-content">
+	<p> © 2025 Thesis Project Team </p>
+	<p> Developed by: KMJ's</p>
+	<ul class ="footer-links">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="work.html">Work</a></li>
+		<li><a href="progress.html">Work Progress</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</div>
+</footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

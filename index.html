@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWQM Pangasius | Hypothalamus Aquaculture</title>
+
+    <!-- 1. Tailwind MUST load first -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 2. Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- 3. Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- 4. Your custom CSS ALWAYS at the bottom -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-poppins">
+    <header>
+		<nav class="navbar">
+		<div class="flex items-center space-x-2">
+			<img src="logoswqm.png" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+			<h1 class="text-xl font-bold" style="color: var(--navbar-text);">SWQM</h1>
+
+		</div>
+			<ul class="nav-links">
+				<li><a href ="index.html" class="active">Home</a></li>
+				<li><a href="about.html"> About</a></li>
+				<li><a href="work.html">Work</a></li>
+				<li><a href="progress.html">Work Progress</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+    
+    <main class="container mx-auto px-4 py-8">
+       <!-- Hero Section -->
+<section class="relative flex items-center justify-center">
+  <!-- Background Image -->
+  <img 
+    src="https://cdn.create.vista.com/api/media/small/360846246/stock-photo-albino-catfish-pangasius-hypophthalmus-black-background" 
+    alt="Fish Background" 
+    class="w-full h-[500px] object-cover brightness-50"
+  >
+
+  <!-- Overlay Text -->
+  <div class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
+    <h1 class="text-3xl md:text-5xl font-bold mb-4">
+      Smart Water Quality Management for <br> Tank-Based Cream Dory
+    </h1>
+    <p class="text-lg md:text-xl mb-8 max-w-3xl">
+      An automated monitoring system designed to maintain ideal water conditions for tank-based Cream Dory farming using real-time data on pH, temperature, salinity, dissolved oxygen, ammonia, and water level.
+    </p>
+    <a 
+      href="#about" 
+      class="bg-white text-blue-600 px-6 py-3 rounded-full font-medium inline-block hover:bg-blue-100 transition duration-300"
+    >
+      Learn More
+    </a>
+  </div>
+</section>
+<br>
+<br>
+
+
+        <!-- Features Section -->
+        <section class="mb-16">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Our Innovative Approach</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="custom-card p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-red-500 mb-4">
+                        <i data-feather="activity" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl custom-text font-semibold mb-3">Productivity Boosting</h3>
+                    <p class="custom-text">Our smart monitoring system maintains ideal water conditions by tracking key parameters in real time, ensuring faster growth and healthier Cream Dory with minimal manual effort.</p>
+                </div>
+                <div class="custom-card p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-teal-500 mb-4">
+                        <i data-feather="droplet" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Sustainability</h3>
+                    <p class="text-gray-600">Built on environmentally responsible aquaculture practices, the system reduces water waste and maintains balanced tank conditions, supporting long-term environmental and fish farm sustainability.</p>
+                </div>
+                <div class="custom-card p-6 rounded-xl shadow-md hover:shadow-lg transition duration-300">
+                    <div class="text-blue-400 mb-4">
+                        <i data-feather="shield" class="w-10 h-10"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Quality Management</h3>
+                    <p class="custom-text">Accurate, real-time data keep water quality within safe limits for Pangasius farming, guaranteeing clean, stable, and high-quality fish production that meets modern standards.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mb-16">
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <div class="md:w-1/2">
+                
+                    <img src="https://scontent.fmnl4-2.fna.fbcdn.net/v/t1.15752-9/568726417_1756623255004282_6130084700729911075_n.png?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE2tzzTnF6d7qFOgeP55PLzM4tY_emoI6Uzi1j96agjpa5CyvBVuKKmNuoUJwofQT0ISGnsiGKdoqRZLD48aKaW&_nc_ohc=s0Zgpkd4IIcQ7kNvwHhxvO3&_nc_oc=AdlpL4OQF7VzFU3IYiHnhgzNDcJvggxa92IXK1P1q0HNasDlEO1ytDBxsGHnVrOWUW_xXV5aHK9Bqq5-E1SB0-SK&_nc_zt=23&_nc_ht=scontent.fmnl4-2.fna&oh=03_Q7cD3gEPk16S7h5L4BTrdCLJihJ9zzgdYVsPDbmc-2kW-_ixQQ&oe=692924A9" 
+					alt="Pangasius Farm" 
+					class="hero custom-hero-bg rounded-2xl p-8 md:p-12 text-white mb-12 shadow-xl">
+			</div>
+
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6 text-gray-800">About Our Study</h2>
+                    <p class="custom-text mb-4">Smart Water Quality Management for Tank-Based Cream Dory Farming, was developed to address the challenges faced by many local fish farmers who still rely on manual methods of checking and maintaining water conditions. Inconsistent monitoring can lead to poor water quality, fish stress, and reduced production efficiency. Recognizing this, our team sought to create a system that combines technology and sustainability to make aquaculture smarter and more reliable.</p>
+					<p class="custom-text mb-4">Beyond just automation, this study aims to empower local Cream Dory (Pangasius hypophthalmus) farmers with an innovative tool that minimizes manual labor, prevents water-related problems, and enhances fish growth and survival rates. In the long run, this project promotes sustainable aquaculture practices that can contribute to the development of the Philippine Pangasius industry, helping it grow toward local food security and global export potential.
+					</p>
+                    <p class="custom-text mb-4">The system uses Arduino, ESP32, and Recirculating Aquaculture System (RAS) technology to automatically monitor key water parameters such as pH, temperature, salinity, dissolved oxygen, ammonia, and water level in real time. By providing accurate and continuous readings, the system helps farmers ensure that their fish are raised in healthy and stable water conditions.</p>
+                    <a href="about.html" 
+					class="text-blue-500 font-medium inline-flex items-center hover:text-blue-700">Read more <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i></a>
+                </div>
+            </div>
+        </section>
+               <!-- mission and vision -->
+    <section class="mb-24">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="custom-card p-8 rounded-xl shadow-md">
+                <h2 class="text-3xl font-bold text-center mb-6 text-gray-800">Mission</h2>
+                <p class="custom-text text-center text-lg leading-snug">
+                    "To combine technology and sustainability in aquaculture by using automation to support local fish farmers and promote eco-friendly, productive fish farming."
+                </p>
+            </div>
+            <div class="custom-card p-8 rounded-xl shadow-md">
+                <h2 class="text-3xl font-bold text-center mb-6 text-gray-800">Vision</h2>
+                <p class="custom-text text-center text-lg leading-snug">
+                    "To become a leading model of innovation in aquaculture by integrating automation and data-driven monitoring for safe, sustainable, and high-quality fish production."
+                </p>
+            </div>
+        </div>
+    </section>
+              
+    </main>
+
+<footer>
+	<div class="footer-content">
+	<p> © 2025 Thesis Project Team </p>
+	<p> Developed by: KMJ's</p>
+	<ul class ="footer-links">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="work.html">Work</a></li>
+		<li><a href="progress.html">Work Progress</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</div>
+</footer>
+    
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>

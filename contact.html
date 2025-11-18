@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWQM Pangasius | Hypothalamus Aquaculture</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-poppins">
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar flex justify-between items-center p-4">
+            <div class="flex items-center space-x-2">
+                <img src="logoswqm.png" alt="Logo" class="h-16 w-16 rounded-full object-cover">
+                <h1 class="text-xl font-bold" style="color: var(--navbar-text);">SWQM</h1>
+            </div>
+            <ul class="nav-links flex space-x-4">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="progress.html">Work Progress</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12">
+
+        <!-- Page Header -->
+        <section class="text-center mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Contact Us</h1>
+            <div class="w-24 h-1 custom-hero-gradient mx-auto mb-6"></div>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                Get in touch with our team to learn more about our hypothalamus aquaculture technology
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="mb-16">
+            <div class="grid md:grid-cols-2 gap-8">
+
+                <!-- Contact Form -->
+                <div class="custom-hero-gradient p-8 rounded-xl shadow-md">
+                    <h2 class="text-2xl font-bold mb-6 custom-text">Send Us a Message</h2>
+                    <form action="https://formspree.io/f/xzzozdkn" method="POST" class="space-y-4">
+                        <div>
+                            <label for="name" class="block custom-text mb-2">Your Name</label>
+                            <input type="text" id="name" name="name" class="custom-input" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block custom-text mb-2">Email Address</label>
+                            <input type="email" id="email" name="email" class="custom-input" required>
+                        </div>
+                        <div>
+                            <label for="subject" class="block custom-text mb-2">Subject</label>
+                            <input type="text" id="subject" name="subject" class="custom-input" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block custom-text mb-2">Message</label>
+                            <textarea id="message" name="message" rows="5" class="custom-input" required></textarea>
+                        </div>
+                        <button type="submit" class="send-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="custom-hero-gradient p-8 rounded-xl shadow-md custom-text">
+                    <h2 class="text-2xl font-bold mb-6">Contact Information</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="mr-4 mt-1"><i data-feather="map-pin" class="w-5 h-5"></i></div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Our Office</h3>
+                                <p>Boni Ave., Brgy. Malamig, Mandaluyong City, Philippines.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="mr-4 mt-1"><i data-feather="phone" class="w-5 h-5"></i></div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Phone</h3>
+                                <p>+63 999-856-2648</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="mr-4 mt-1"><i data-feather="mail" class="w-5 h-5"></i></div>
+                            <div>
+                                <h3 class="font-semibold mb-1">Email</h3>
+                                <p>tankbasedcreamdoryfarming@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="mb-16">
+            <div class="custom-hero-gradient p-8 rounded-xl shadow-md">
+                <h2 class="text-2xl font-bold mb-6 text-gray-800">Find Us on Map</h2>
+                <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg overflow-hidden">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.4338648150236!2d121.04527427583825!3d14.572108278430564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8ef9fa3ef3d%3A0x25ec3080bdb33b5b!2sRizal%20Technological%20University%20-%20Main%20Campus!5e0!3m2!1sen!2sph!4v1697920212234!5m2!1sen!2sph"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content p-4 text-center">
+            <p>© 2025 Thesis Project Team</p>
+            <p>Developed by: KMJ's</p>
+            <ul class="footer-links flex justify-center space-x-4 mt-2">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="progress.html">Work Progress</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
