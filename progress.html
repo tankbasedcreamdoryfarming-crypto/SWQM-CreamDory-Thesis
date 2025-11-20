@@ -100,19 +100,29 @@
                         <i data-feather="monitor" class="w-10 h-10"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4 custom-text">Real-Time Monitoring</h3>
-                    <p class="custom-text mb-4">Continuous tracking of hypothalamus activity through non-invasive sensors provides instant data on fish wellbeing.</p>
+                    <p class="custom-text mb-4">
+					Our system continuously measures essential water parameters to maintain 
+					ideal tank conditions for Cream Dory. Automated sensors send live updates 
+					to the dashboard, helping farmers stay aware of environmental changes at all times.
+					</p>
                     <ul class="text-gray-600 space-y-2">
                         <li class="flex items-start">
                             <i data-feather="check" class="w-4 h-4 mt-1 mr-2 text-green-500"></i>
-                            <span>Tracks stress levels and feeding responses</span>
+                            <span>
+							Tracks pH, temperature, salinity, dissolved oxygen, ammonia, and water level
+							</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="w-4 h-4 mt-1 mr-2 text-green-500"></i>
-                            <span>Monitors environmental adaptation</span>
+                            <span>
+							Detects sudden shifts that may affect fish health
+							</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="w-4 h-4 mt-1 mr-2 text-green-500"></i>
-                            <span>Detects early signs of health issues</span>
+                            <span>
+							Helps prevent water-related stress and mortality
+							</span>
                         </li>
                     </ul>
                 </div>
@@ -121,19 +131,29 @@
                         <i data-feather="bar-chart-2" class="w-10 h-10"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4 custom-text">Data-Driven Decisions</h3>
-                    <p class="custom-text mb-4">Our AI-powered analytics system processes hypothalamus data to recommend optimal farming conditions.</p>
+                    <p class="custom-text mb-4">
+					The system analyzes real-time data to help farmers make 
+					smarter and faster management choices. With continuous monitoring, 
+					users can respond immediately when parameters go beyond the safe range.
+					</p>
                     <ul class="text-gray-600 space-y-2">
                         <li class="flex items-start">
                             <i data-feather="check" class="w-4 h-4 mt-1 mr-2 text-green-500"></i>
-                            <span>Automated feeding schedule adjustments</span>
+                            <span>
+							Identifying when water adjustments are needed
+							</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="w-4 h-4 mt-1 mr-2 text-green-500"></i>
-                            <span>Water quality parameter optimization</span>
+                            <span>
+							Improving tank stability through timely alerts
+							</span>
                         </li>
                         <li class="flex items-start">
                             <i data-feather="check" class="w-4 h-4 mt-1 mr-2 text-green-500"></i>
-                            <span>Growth prediction modeling</span>
+                            <span>
+							Supporting better fish growth and survival with accurate data
+							</span>
                         </li>
                     </ul>
                 </div>
@@ -175,23 +195,50 @@
 <!-- ===================== PHASE SECTIONS ==================== -->
 <!-- ======================================================= -->
 
-<section id="phase1" class="detail-section">
-    <h3 class="text-xl custom-text font-semibold mb-3">Phase 1 – Research & Planning</h3>
-    <p>We began by identifying the challenges faced by local Cream Dory farmers, especially the difficulty of manually checking water quality. We researched ideal water parameters—pH, temperature, salinity, dissolved oxygen, ammonia, and water level—and studied the current state of Pangasius farming in the Philippines.</p>
-	<br>
-    <h4>Key Activities:</h4>
-    <ul>
-        <li>Understanding sensor behavior</li>
-        <li>Identifying suitable microcontroller</li>
-        <li>Planning system workflow and features</li>
-    </ul>
+<section id="phase1" class="detail-section" style="display: flex; align-items: flex-start; gap: 20px;">
+    
+    <!-- Text Container -->
+    <div style="flex: 1;">
+        <h3 class="text-xl custom-text font-semibold mb-3">Phase 1 – Research & Planning</h3>
+        <p>
+            We began our project by studying the challenges faced by local Cream Dory farmers, focusing on issues
+            related to water quality and inconsistent monitoring practices. Our team researched the ideal water 
+            parameters necessary for Pangasius survival and growth, including pH, temperature, salinity, dissolved 
+            oxygen, ammonia, and water level. We also examined the current Philippine Pangasius industry, learning 
+            about the limited export presence and the need for improved production systems. This phase helped us 
+            identify the exact gaps our system needed to solve.
+        </p>
 
-    <img src="phase1.jpg" alt="Research & Planning" width="300">
+        <br>
+
+        <h4>Key Activities:</h4>
+        <ul>
+            <li>Understanding sensor behavior</li>
+            <li>Identifying suitable microcontroller</li>
+            <li>Planning system workflow and features</li>
+        </ul>
+    </div>
+
+    <!-- Image Container -->
+    <div>
+        <img src="phase1.jpg" alt="Research & Planning" width="300" style="border-radius: 10px;">
+    </div>
+
 </section>
 
-<section id="phase2" class="detail-section">
-    <h3 class="text-xl custom-text font-semibold mb-3">Phase 2 – System Design</h3>
-    <p>We designed the overall structure of our Smart Water Quality Management System. This included selecting components such as the Arduino, ESP32, sensors, and Recirculating Aquaculture System (RAS). We also drafted the wiring layout and tank monitoring setup.</p>
+
+<section id="phase2" class="detail-section" style="display: flex; align-items: flex-start; gap: 20px;" >
+
+	<!-- Text Container -->
+	<div style="flex:1;">
+		<h3 class="text-xl custom-text font-semibold mb-3">Phase 2 – System Design</h3>
+		<p>
+		After gathering sufficient data, we designed the full layout of the Smart Water Quality Management System. 
+		We selected the Arduino and ESP32 as our main microcontrollers and chose suitable sensors for each water quality parameter. 
+		The physical layout of the tank monitoring setup was planned alongside the Recirculating Aquaculture System (RAS) to ensure
+		an efficient water flow system.This phase involved drafting diagrams, mapping connections, and establishing how all components
+		would work together in real time.
+		</p>
 	<br>
     <h4>Components Designed:</h4>
     <ul>
@@ -199,62 +246,117 @@
         <li>Sensor placement layout</li>
         <li>Microcontroller and power design</li>
     </ul>
-
-    <img src="phase2.jpg" alt="System Design" width="300">
+	</div>
+	
+	<!--Image Container-->
+	<div>
+		<img src="phase2.jpg" alt="System Design" width="300" style="border-radius: 10px;">
+	</div>
 </section>
 
-<section id="phase3" class="detail-section">
-    <h3 class="text-xl custom-text font-semibold mb-3">Phase 3 – Prototype Development</h3>
-    <p>Our team assembled the hardware prototype and programmed the microcontrollers. All sensors were connected and tested individually to ensure they could measure water parameters accurately.</p>
+<section id="phase3" class="detail-section" style="display: flex; align-items: flex-start; gap: 20px;">
+
+	<!--Text Container-->
+	<div style="flex:1;">
+		<h3 class="text-xl custom-text font-semibold mb-3">Phase 3 – Prototype Development</h3>
+		<p>
+		Once the design was finalized, we assembled the prototype by connecting all sensors to the 
+		microcontrollers and developing the initial program. This was where our system started to take shape. 
+		We programmed it to collect water data automatically and display it on an LCD screen. 
+		Each sensor was powered, tested, and adjusted to ensure functional reading outputs. 
+		Our prototype is now capable of continuously monitoring tank conditions with minimal human intervention.
+		</p>
 	<br>
     <ul>
         <li>Building tank frame</li>
         <li>Installing sensors</li>
         <li>Connecting wiring</li>
     </ul>
-
-    <img src="phase3.jpg" alt="Prototype Development" width="300">
+	</div>
+	
+	<!--Image Container-->
+	<div>
+    <img src="phase3.jpg" alt="Prototype Development" width="300" style="border-radius: 10px;">
+	</div>
 </section>
 
-<section id="phase4" class="detail-section">
-    <h3 class="text-xl custom-text font-semibold mb-3">Phase 4 – Dashboard & Display Integration</h3>
-    <p>We integrated our system with a web-based dashboard and LCD display to show real-time sensor readings. This allows users to view data instantly, receive alerts, and monitor tank conditions easily.</p>
+<section id="phase4" class="detail-section" style="display: flex; align-items:flex-start; gap: 20px;">
+
+	<!--Text Container-->
+	<div style="flex:1;">
+		<h3 class="text-xl custom-text font-semibold mb-3">Phase 4 – Dashboard & Display Integration</h3>
+		<p>
+		We are currently integrating our hardware system with a real-time web dashboard 
+		that displays live sensor readings and triggers alerts when parameters go beyond normal levels. 
+		The dashboard aims to give farmers instant access to their tank’s condition using any device. 
+		At the same time, the LCD display shows on-site data for easy visual checks. 
+		This phase also includes improving the user interface and ensuring system responsiveness.
+		</p>
 	<br>
     <ul>
         <li>Setting up Blynk widgets</li>
         <li>Connecting ESP32 to dashboard</li>
         <li>Displaying real-time data</li>
     </ul>
-
-    <img src="phase4.jpg" alt="Dashboard Integration" width="300">
+	</div>
+	
+	<!--Image Container-->
+	<div>
+    <img src="phase4.jpg" alt="Dashboard Integration" width="300" style="border-radius: 10px;">
+	</div>
 </section>
 
-<section id="phase5" class="detail-section">
-    <h3 class="text-xl custom-text font-semibold mb-3">Phase 5 – Testing & Calibration</h3>
-    <p>We began cultivating Cream Dory in early November to observe how the system performs in real tank conditions. Throughout this period, we monitored the stability of the automated sensor readings and checked the harvest weight of the Pangasius to track growth progress. Instead of manual testing, we validated our system through real-time observation and interviews with local farmers, comparing their experiences with the patterns detected by our automated monitoring.</p>
+<section id="phase5" class="detail-section" style="display: flex; align-items: flex-start; gap: 20px;">
+
+	<!--Text Container-->
+	<div style="flex: 1;">
+		<h3 class="text-xl custom-text font-semibold mb-3">Phase 5 – Testing & Calibration</h3>
+		<p>
+		We started cultivating Cream Dory in early November to test how the system performs during real tank operation. 
+		Throughout the cultivation period, we observed the stability of the sensor readings and monitored the harvest weight
+		of the fish to track growth progress under automated monitoring conditions. Instead of manual testing, 
+		system validation was done through continuous observation and interviews with local farmers, 
+		comparing their real-world experiences with the patterns detected by our monitoring system.
+		</p>
 	<br>
     <ul>
         <li>Calibrating sensors</li>
         <li>Testing water levels</li>
         <li>Fixing reading delays</li>
     </ul>
-
-    <img src="phase5.jpg" alt="Testing & Calibration" width="300">
+	</div>
+	
+	<!--Image Container-->
+	<div>
+    <img src="phase5.jpg" alt="Testing & Calibration" width="300" style="border-radius: 10px;">
+	</div>
 </section>
 
-<section id="phase6" class="detail-section">
-    <h3 class="text-xl custom-text font-semibold mb-3">Phase 6 – System Evaluation & Improvements</h3>
-    <p>Next, we will evaluate the performance of the system during extended operation. Based on the results, we will refine the coding, improve sensor stability, and enhance the dashboard interface for better user experience.</p>
+<section id="phase6" class="detail-section" style="display: flex; align-items: flex-start; gap: 20px;">
+
+	<!--Texte Container-->
+	<div style="flex: 1;">
+		<h3 class="text-xl custom-text font-semibold mb-3">Phase 6 – System Evaluation & Improvements</h3>
+    <p>
+	Our next step is to fully evaluate the system’s performance based on the collected real-time data and fish growth results. 
+	We will refine the accuracy of the readings, improve the alert system, and enhance the dashboard’s usability. 
+	These improvements aim to make the system more reliable, more user-friendly, 
+	and better suited for full-scale deployment in actual Cream Dory farms.
+	</p>
 	<br>
     <ul>
         <li>Performance results</li>
         <li>Issues found & fixes</li>
         <li>Final improvements</li>
     </ul>
-
-    <video width="320" controls>
+	</div>
+	
+	<!--Video Container-->
+	<div>
+    <video width="320" controls style="border-radius: 10px;">
         <source src="phase6.mp4" type="video/mp4">
     </video>
+	</div>
 </section>
 
 		<br>
