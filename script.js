@@ -27,14 +27,16 @@ const phaseData = {
                 <figcaption>Dissolve Oxygen Sensor</figcaption>
 				<img src="phs.jpg" style="border-radius:12px; margin-bottom:10px;">
                 <figcaption>pH Sensor</figcaption>
-				<img src="wiring.png" style="border-radius:12px; margin-bottom:10px;">
-                <figcaption>Wiring / Connection Map</figcaption>
-				<img src="as.jpg" style="border-radius:12px; margin-bottom:10px;">
-                <figcaption>Actual Setup</figcaption>
+				<img src="ras1.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>First Layer of RAS</figcaption>
+				<img src="ras2.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>Second Layer of RAS</figcaption>
+				<img src="ras3.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>Third Layer of RAS</figcaption>
 				<img src="ras.jpg" style="border-radius:12px; margin-bottom:10px;">
                 <figcaption>RAS Layout</figcaption>
-				<img src="blynk.jpg" style="border-radius:12px; margin-bottom:10px;">
-                <figcaption>Blynk Dashboard</figcaption>
+				<img src="as.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>Actual Setup</figcaption>
             </figure>
             </div>
         `
@@ -54,6 +56,8 @@ const phaseData = {
                 <figcaption>Complete System</figcaption>
 				<img src="lcd.jpg" style="border-radius:12px; margin-bottom:10px;">
                 <figcaption>LCD design of the System</figcaption>
+				<img src="blynk.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>Blynk Dashboard</figcaption>
             </figure>
             </div>
         `
@@ -92,6 +96,10 @@ const phaseData = {
                 <figcaption>Weighing of Fish</figcaption>
 				<img src="wf1.jpg" style="border-radius:12px; margin-bottom:10px;">
                 <figcaption>Weighing of Fish</figcaption>
+				<img src="data1.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>Data from Blynk</figcaption>
+				<img src="data2.jpg" style="border-radius:12px; margin-bottom:10px;">
+                <figcaption>Data from Blynk</figcaption>
 				<img src="interview.jpg" style="border-radius:12px; margin-bottom:10px;">
                 <figcaption>Interview</figcaption>
 				</figure>
@@ -123,6 +131,7 @@ const phaseData = {
                 <figcaption>Notification</figcaption>
 				<img src="ba.jpg" style="border-radius:12px; margin-bottom:10px;">
                 <figcaption>Blynk Application</figcaption>
+				
             </figure>
             </div>
         `
