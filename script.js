@@ -15,21 +15,25 @@ const phaseData = {
         <h3 style="text-align:center; font-weight:bold; margin:20px 0;">Sensors</h3>
         <div class="phase-images-grid">
             <figure>
-                <img src="nH3.jpg" alt="nH3 Sensor">
+                <img src="nh3.jpg" alt="nH3 Sensor">
                 <figcaption>nH3 Sensor</figcaption>
             </figure>
+			
             <figure>
                 <img src="tds.jpg" alt="TDS Sensor">
                 <figcaption>TDS Sensor</figcaption>
             </figure>
+			
             <figure>
                 <img src="do.jpg" alt="Dissolve Oxygen Sensor">
                 <figcaption>Dissolve Oxygen Sensor</figcaption>
             </figure>
+			
             <figure>
                 <img src="ph.jpg" alt="pH Sensor">
                 <figcaption>pH Sensor</figcaption>
             </figure>
+			
 			 <figure>
                 <img src="float.jpg" alt="pH Sensor">
                 <figcaption>Water Float</figcaption>
