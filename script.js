@@ -44,10 +44,12 @@ const phaseData = {
                 <img src="about.png" alt="System Layout">
                 <figcaption>System Layout</figcaption>
             </figure>
+			
             <figure>
                 <img src="schematic.jpg" alt="Schematic Diagram">
                 <figcaption>Schematic Diagram</figcaption>
             </figure>
+			
             <figure>
                 <img src="pcb.png" alt="PCB Layout">
                 <figcaption>PCB Layout</figcaption>
@@ -60,18 +62,23 @@ const phaseData = {
             <figure>
                 <img src="ts.jpg" alt="First Layer of RAS">
             </figure>
+			
             <figure>
                 <img src="ts1.jpg" alt="Second Layer of RAS">
             </figure>
+			
             <figure>
                 <img src="ts2.jpg" alt="Third Layer of RAS">
             </figure>
+			
             <figure>
                 <img src="ts3.jpg" alt="RAS Layout">
-            </figure
+            </figure>
+			
 			<figure>
                 <img src="ts4.jpg" alt="RAS Layout">
             </figure>
+			
 			<figure>
                 <img src="ts5.jpg" alt="RAS Layout">
             </figure>
@@ -201,9 +208,11 @@ const phaseData = {
             <figure>
                 <img src="lcd1.jpg" alt="LCD Display">
             </figure>
+			
 			<figure>
                 <img src="lcd2.jpg" alt="LCD Display">
             </figure>
+			
 			<figure>
                 <img src="lcd3.jpg" alt="LCD Display">
             </figure>
@@ -231,9 +240,11 @@ const phaseData = {
             <figure>
                 <img src="ba1.jpg" alt="Blynk Dashboard">
             </figure>
+			
 			<figure>
                 <img src="ba2.jpg" alt="Blynk Dashboard">
-            </figure>           
+            </figure>  
+			
 			<figure>
                 <img src="ba.jpg" alt="Blynk Dashboard">
             </figure>
@@ -245,9 +256,11 @@ const phaseData = {
             <figure>
                 <img src="lcd1.jpg" alt="LCD Display">
             </figure>
+			
 			<figure>
                 <img src="lcd2.jpg" alt="LCD Display">
             </figure>
+			
 			<figure>
                 <img src="lcd3.jpg" alt="LCD Display">
             </figure>
@@ -284,7 +297,6 @@ const phaseData = {
 					<video class="video-thumb" 
 						src="swim.mp4" 
 						muted 
-						playsinline 
 						preload="metadata" 
 						poster="video-thumb.jpg" 
 						controls
@@ -299,8 +311,7 @@ const phaseData = {
 				<div class="phase-video-grid" style="flex:1 1 300px; text-align:center;">
 					<video class="video-thumb" 
 						src="setup.mp4" 
-						muted 
-						playsinline 
+						muted  
 						preload="metadata" 
 						poster="video-thumb.jpg" 
 						controls
@@ -322,9 +333,11 @@ const phaseData = {
             <figure>
                 <img src="twf.jpg" alt="Tank with Fish and Sensors">
             </figure>
+			
             <figure>
                 <img src="twf1.jpg" alt="Tank with Fish and Sensors">
             </figure>
+			
 			<figure>
                 <img src="twf1.jpg" alt="Tank with Fish and Sensors">
             </figure>
@@ -336,18 +349,23 @@ const phaseData = {
             <figure>
                 <img src="wf.jpg" alt="Weighing of Fish">
             </figure>
+			
             <figure>
                 <img src="wf1.jpg" alt="Weighing of Fish">
             </figure>
+			
 			<figure>
                 <img src="wf2.jpg" alt="Weighing of Fish">
             </figure>
+			
 			<figure>
                 <img src="wf3.jpg" alt="Weighing of Fish">
             </figure>
+			
 			<figure>
                 <img src="wf4.jpg" alt="Weighing of Fish">
             </figure>
+			
 			<figure>
                 <img src="wf5.jpg" alt="Weighing of Fish">
             </figure>
@@ -449,7 +467,7 @@ const phaseData = {
 		<!-- USER MANUAL -->
 		<h3>User Manual (PDF)</h3>
 		<div style="text-align:center; margin-top: 15px;">
-		<a href="user_manual.pdf" target="_blank" class="btn">Open User Manual</a>
+		<a href="users-manual.pdf" target="_blank" class="btn">Open User Manual</a>
 		</div>
 
 
