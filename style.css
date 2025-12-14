@@ -573,3 +573,41 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+.phase-video {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.phase-video video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    border: 3px solid #ccc;
+}
+
+.video-caption {
+    font-weight: bold;
+    margin-top: 8px;
+}
+/* VIDEO THUMBNAIL (PARANG IMAGE) */
+.phase-video-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.video-thumb {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s;
+}
+
+.video-thumb:hover {
+    transform: scale(1.05);
+}
